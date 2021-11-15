@@ -1,0 +1,196 @@
+/*
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(to right bottom,
+    #fc6a21,#f7eae4,#3ede49 ) no-repeat;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container {
+    background-color: lightyellow;
+    padding: 20px;
+    border-radius: 15px;
+    width: 370px;
+}
+.h1{
+    font-size: 30px;
+    color: darkgoldenrod;
+    text-align: center;
+    margin-bottom: 10px;
+}    
+.form-control{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    color: darkred;
+    border-bottom: 1px solid darkseagreen;
+
+}
+.form-control label{
+    cursor:pointer;
+
+}
+ .p-header {
+    position: relative;
+}
+.p-header input {
+    width: 100%; 
+    height:100%;  
+    background-color:rgb(194, 229, 245);
+    padding: 14px;
+    border-radius: 3px;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-size: 16px;
+}
+.p-header button,
+.form-control input[type=number]{
+    padding: 3px;
+    background-color: rgb(255, 210, 127) ;
+    outline: none;
+    border: none;
+    border-radius: 3px 0 0 0;
+}
+ .p-header button{
+    position: absolute;
+    bottom:0;
+    right:0;
+    cursor: pointer;
+
+
+}
+      
+      #submit {
+          width: 100px;
+          padding: 15px;
+          margin-top: 10px;
+          background-color: rgb(255, 210, 127)  ;
+          font-size: 13px;
+          font-weight: 250px;
+          text-transform: uppercase;
+          outline: none;
+          border:none;
+          border-radius: 3px;
+          color:chocolate;
+          cursor: pointer;
+          transition: all .3s;
+          
+      }
+      #submit:hover{
+        background-color: rgb(127, 255, 234)  ;
+
+      }
+      #submit:active{
+        background-color: rgb(255, 178, 127)  ;
+        
+      }
+      */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    
+    }
+    body {
+        background: linear-gradient(to right bottom,
+        #fc6a21,#f7eae4,#3ede49 ) no-repeat;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container {
+        background-color: rgb(162, 163, 163);
+        padding: 20px;
+        border-radius: 15px;
+        width: 370px;
+    }
+    h1 {
+        font-size: 30px;
+        color: rgb(248, 242, 242);
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .form-control {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0;
+        color: rgb(2, 0, 0);
+        border-bottom: 1px solid rgb(16, 150, 160);
+    }
+    .form-control label {
+        cursor: pointer;
+    }
+    .p-header {
+        position: relative;
+    
+    }
+    .p-header input {
+        width: 100%;
+        background-color: rgb(49, 48, 40);
+        padding: 14px;
+        border-radius: 3px;
+        color: #fff;
+        outline: none;
+        border: none;
+        font-size: 16px;
+    }
+    .p-header button, 
+    .form-control input[type=number]
+    {
+        padding: 3px 5px;
+        background-color: #eee;
+        outline: none;
+        border: none;
+        border-radius: 3px 0 0 0;
+    
+    }
+    .p-header button {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        cursor: pointer;
+    }
+    #submit 
+    {
+        width: 100%;
+        padding: 15px;
+        margin-top: 10px;
+        background: linear-gradient(to right bottom,
+        #181716,#f7eae4 ) no-repeat;
+        font-size: 18px;
+        font-weight: 600;
+        outline: none;
+        border: none;
+        border-radius: 3px;
+        
+        color :rgb(12, 11, 11);
+        cursor: pointer;
+        text-transform: uppercase;
+        transition: all .3s;
+    }
+    #submit:hover
+     {
+        background: linear-gradient(to left bottom,
+        #181716,#f7eae4 ) no-repeat; 
+        
+       
+      
+          
+        
+        
+     }
+    
+    #submit:active {
+        background-color: #3282b8;
+    }
